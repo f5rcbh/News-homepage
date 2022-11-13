@@ -1,0 +1,35 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Card Section */
+.Card{
+    background-color: wheat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav Section */
+
+.nav{
+    border: solid;
+}
+.nav-ol{
+    display: flex;
+    justify-content:end;
+}
+
+.nav-li{
+    padding: 2rem;
+    list-style: none;
+}
+
+.nav-a{
+    text-decoration: none;
+    color: inherit;
+}
+ 
